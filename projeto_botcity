@@ -60,7 +60,7 @@ def main():
         not_found("write_email")
     bot.click_relative(-124, 58)
 
-    bot.paste("testinhos.bel@gmail.com")
+    bot.paste("seu-email@email.com")
 
     if not bot.find( "next_button", matching=0.97, waiting_time=10000):
         not_found("next_button")
@@ -80,7 +80,7 @@ def main():
          not_found("password")
     bot.click_relative(2, 32)
 
-    bot.paste("senha2023")
+    bot.paste("suasenha")
 
     if not bot.find( "login_button", matching=0.97, waiting_time=10000):
         not_found("login_button")

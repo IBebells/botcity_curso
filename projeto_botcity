@@ -70,7 +70,7 @@ def main():
          not_found("username")
     bot.click_relative(3, 28)
 
-    bot.paste("Teste189687")
+    bot.paste("Username")
 
     if not bot.find( "next_button_", matching=0.97, waiting_time=10000):
          not_found("next_button_")
